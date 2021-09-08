@@ -1,0 +1,27 @@
+{
+  "name": "test-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "jest --forceExit --detectOpenHandles --coverage"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^6.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandr-affinidi/test-api.git"
+  },
+  "author": "alexandr-affinidi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandr-affinidi/test-api/issues"
+  },
+  "homepage": "https://github.com/alexandr-affinidi/test-api#readme"
+}
